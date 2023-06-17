@@ -3,3 +3,8 @@
   margin: 0 auto;
   /* background-color: beige; */
 }
+@media (max-width: 1200px) {
+  .main {
+    width: 80vw;
+  }
+}

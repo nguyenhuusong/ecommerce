@@ -6,11 +6,17 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .nav {
   padding: 2rem 0.5rem 1.25rem 0.5rem;
   width: 70vw;
   margin: 0 auto;
   font-style: italic;
+}
+@media (max-width: 1200px) {
+  .nav {
+    width: 80vw;
+  }
 }
 .link a {
   color: inherit;

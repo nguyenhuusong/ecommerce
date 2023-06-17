@@ -73,6 +73,11 @@
   background-color: var(--light-gray-color);
   padding: 2.5rem;
 }
+@media (max-width: 1350px) {
+  .cartTotalContainer {
+    padding: 2rem 1rem;
+  }
+}
 .cartContainer h4 {
   font-weight: 500;
 }

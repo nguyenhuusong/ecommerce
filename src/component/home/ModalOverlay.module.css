@@ -12,8 +12,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 600px;
   width: 60vw;
+  aspect-ratio: 5/3;
   background-color: white;
   z-index: 101;
   padding: 2rem;
@@ -32,7 +32,7 @@
   flex-grow: 1;
 }
 .image {
-  flex-basis: 45%;
+  flex-grow: 1;
   overflow: hidden;
 }
 .image img {
@@ -45,6 +45,17 @@
 .description {
   flex-basis: 55%;
   padding: 1rem 2rem;
+  margin: auto;
+  flex-shrink: 0;
+}
+@media (max-width: 1200px) {
+  .description {
+    flex-basis: 70%;
+  }
+  .image img {
+    /* height: 100%; */
+    width: 200%;
+  }
 }
 .description h2 {
   font-weight: 500;
@@ -59,7 +70,7 @@
   line-height: 1.4rem;
   width: 100%;
   display: -webkit-box;
-  -webkit-line-clamp: 14;
+  -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
