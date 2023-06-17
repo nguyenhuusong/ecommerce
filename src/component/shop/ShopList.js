@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 import { useEffect } from "react";
 
 function ShopList() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  });
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // });
 
   return (
     <div className={classes.nav}>

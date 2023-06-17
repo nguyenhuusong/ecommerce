@@ -23,9 +23,9 @@ function SProduct() {
   } else {
     products = productsData.filter((el) => el.category === params.type);
   }
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  });
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // });
   return (
     <div className={classes.productList}>
       {products.map((el) => (
