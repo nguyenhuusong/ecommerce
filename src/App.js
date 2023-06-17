@@ -17,33 +17,36 @@ import CheckoutPage from "./pages/CheckoutPage";
 
 const r = document.querySelector(":root");
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Root />,
-    id: "product-loader",
-    loader: productLoader,
-    children: [
-      { index: true, element: <Homepage />, loader: HomeLoader },
-      {
-        path: "shop",
-        element: <ShopPage />,
-        children: [
-          { index: true, element: <SProduct /> },
-          {
-            path: ":type",
-            element: <SProduct />,
-          },
-        ],
-      },
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Root />,
+      id: "product-loader",
+      loader: productLoader,
+      children: [
+        { index: true, element: <Homepage />, loader: HomeLoader },
+        {
+          path: "shop",
+          element: <ShopPage />,
+          children: [
+            { index: true, element: <SProduct /> },
+            {
+              path: ":type",
+              element: <SProduct />,
+            },
+          ],
+        },
 
-      { path: "detail/:productId", element: <DetailPage /> },
-      { path: "cart", element: <CartPage /> },
-      { path: "auth", element: <LoginPage />, action: LoginAction },
-      { path: "/checkout", element: <CheckoutPage /> },
-    ],
-  },
-]);
+        { path: "detail/:productId", element: <DetailPage /> },
+        { path: "cart", element: <CartPage /> },
+        { path: "auth", element: <LoginPage />, action: LoginAction },
+        { path: "/checkout", element: <CheckoutPage /> },
+      ],
+    },
+  ],
+  { basename: "/ecommerce" }
+);
 
 let inil = true;
 function App() {
