@@ -1,0 +1,57 @@
+.loading {
+  animation-play-state: paused !important;
+}
+.productItem {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  transition: all ease-in-out 0.3s;
+}
+.productItem:hover {
+  cursor: pointer;
+}
+.aniShow {
+  animation-name: aniShow;
+  animation-duration: 1s;
+}
+@keyframes aniShow {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+.productItem::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: background-color ease-in-out 0.3s;
+}
+.productItem:hover:before {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.title {
+  color: var(--gray-color);
+}
+.img {
+  height: calc(width);
+}
+.img img {
+  z-index: -1;
+}
+.descript h3 {
+  margin: 1rem 0 0.5rem 0;
+  line-height: 1.8rem;
+  font-weight: 500;
+  font-style: italic;
+}
+.descript p {
+  color: var(--gray-color);
+}

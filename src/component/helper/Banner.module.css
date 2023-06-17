@@ -1,0 +1,24 @@
+.banner {
+  font-style: italic;
+  padding: 6rem 5rem;
+  background: var(--light-gray-color);
+  display: flex;
+  justify-content: space-between;
+}
+.banner h1 {
+  font-weight: 500;
+}
+.banner p {
+  color: var(--gray-color);
+}
+/*  */
+
+.link a {
+  font-weight: 500;
+  text-decoration: none;
+  color: inherit;
+  margin: 0 0.25rem;
+}
+.active {
+  color: var(--gray-color) !important;
+}

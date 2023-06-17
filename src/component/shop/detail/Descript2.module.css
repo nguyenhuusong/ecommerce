@@ -1,0 +1,28 @@
+.desc2 {
+  margin-top: 3rem;
+  font-style: italic;
+}
+.desc2 p {
+  color: var(--gray-color);
+  margin-bottom: 0.5rem;
+}
+.desc2 li {
+  list-style-type: none;
+  list-style-position: inside;
+  color: var(--gray-color);
+  line-height: 1.5rem;
+}
+.btn button {
+  border: 0;
+  background-color: var(--dark-color);
+  color: var(--light-gray-color);
+  padding: 0.75rem 1.5rem;
+}
+.btn button:hover {
+  cursor: pointer;
+  background-color: var(--lightDark-color);
+}
+.desc2 h3 {
+  font-weight: 500;
+  margin: 1.5rem 0;
+}

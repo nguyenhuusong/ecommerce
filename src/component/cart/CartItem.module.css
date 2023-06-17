@@ -1,0 +1,21 @@
+.image {
+  width: 100px;
+}
+.image img {
+  width: 100%;
+}
+.cartItem td {
+  padding: 1rem 0;
+}
+.cartItem td {
+  text-align: center;
+}
+.name {
+  padding: 0 1rem !important;
+}
+.gray {
+  color: var(--gray-color);
+}
+.trashCan:hover {
+  cursor: pointer;
+}

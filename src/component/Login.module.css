@@ -1,0 +1,89 @@
+.login {
+  width: 100%;
+  background-image: url("../image/banner1.jpg");
+  background-position: 40% 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+.form {
+  text-align: center;
+  width: 40%;
+  min-width: 500px;
+  /* min-height: 200px; */
+  background-color: red;
+  margin: auto auto;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  flex-direction: column;
+}
+.form h1 {
+  font-style: italic;
+  font-weight: 400;
+  flex-basis: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0 5rem;
+}
+.form form {
+  flex-basis: 50%;
+  margin: 0 auto;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form input {
+  font-size: 1rem;
+  padding: 1.5rem;
+  border: none;
+  border: 1px solid var(--gray-color);
+  border-top: none;
+}
+.form input:focus {
+  outline: none;
+  background-color: #e0d4fd;
+}
+.form .topBor {
+  border-top: 1px solid var(--gray-color);
+}
+.form button {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  border: none;
+  padding: 1.5rem 0;
+  background-color: var(--dark-color);
+  color: var(--light-gray-color);
+}
+.form button:disabled {
+  background-color: #ccc;
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+.switch {
+  flex-basis: 20%;
+  margin: 3rem 0 4rem 0;
+  font-style: italic;
+}
+.switch a {
+  text-decoration: none;
+  color: #1864ab;
+}
+.invalid {
+  background-color: #fddddd;
+}
+.form .invalid:focus {
+  background-color: #fbe8d2;
+}
+.form ul {
+  margin-bottom: 1rem;
+  list-style: none;
+  color: red;
+}

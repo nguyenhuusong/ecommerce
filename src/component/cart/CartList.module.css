@@ -1,0 +1,119 @@
+.cartContainer {
+  margin: 3rem 0;
+  font-style: italic;
+}
+.cartContainer h2 {
+  margin-bottom: 2rem;
+  font-weight: 500;
+  font-style: italic;
+}
+.cart {
+  display: flex;
+  gap: 1.5rem;
+}
+.cartList {
+  flex-basis: 65%;
+}
+.cart table {
+  border: none;
+}
+
+.cart h3 {
+  font-style: italic;
+  font-weight: 500;
+}
+.cart th {
+  font-style: italic;
+  font-weight: 500;
+  padding: 1rem 0;
+}
+.cart thead tr {
+  background-color: var(--light-gray-color);
+}
+.cartList {
+  text-align: center;
+}
+.cartList table {
+  width: 100%;
+}
+.proCol {
+  width: 30%;
+}
+
+.empty {
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+.footer {
+  margin-top: 2rem;
+  background-color: var(--light-gray-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+}
+.footer i {
+  margin: 0 0.5rem;
+}
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer a:hover {
+  cursor: pointer;
+}
+.footer .gtcheckout {
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+.cartTotal {
+  flex-grow: 1;
+}
+.cartTotalContainer {
+  background-color: var(--light-gray-color);
+  padding: 2.5rem;
+}
+.cartContainer h4 {
+  font-weight: 500;
+}
+.subtotal,
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+.subtotal {
+  border-bottom: 1px solid var(--gray-color);
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.total {
+  margin-bottom: 2rem;
+}
+.cartTotal form {
+  display: flex;
+  flex-direction: column;
+}
+.cartTotal input {
+  border: 1px solid var(--gray-color);
+  font-size: 1rem;
+  padding: 0.75rem;
+}
+.cartTotal input:focus {
+  outline: 0;
+}
+.cartTotal button {
+  font-size: 1rem;
+  border: none;
+  padding: 0.75rem 0;
+  background-color: var(--dark-color);
+  color: var(--light-gray-color);
+}
+.cartTotal button:hover {
+  cursor: pointer;
+}
+.subtotal p {
+  color: var(--gray-color);
+}
+.h3light {
+  font-weight: 300 !important;
+}

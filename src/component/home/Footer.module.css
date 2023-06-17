@@ -1,0 +1,28 @@
+.footer {
+  background-color: #010101;
+  color: white;
+}
+.container {
+  width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 0;
+  color: var(--gray-color);
+  font-style: italic;
+}
+.container ul {
+  list-style: none;
+}
+.container li {
+  margin-top: 1rem;
+}
+.container a {
+  color: inherit;
+  text-decoration: none;
+}
+.container h2 {
+  margin-bottom: 2rem;
+  color: var(--light-gray-color);
+  font-weight: 500;
+}

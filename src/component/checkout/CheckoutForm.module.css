@@ -1,0 +1,78 @@
+.checkoutform {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+.form {
+  flex-basis: 65%;
+}
+.title {
+  margin: 3rem 0 2rem 0;
+  font-weight: 500;
+  font-style: italic;
+}
+.form label,
+.form input {
+  display: block;
+}
+.form label {
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+.form input {
+  margin-bottom: 1.5rem;
+  width: 100%;
+  border: 1px solid var(--gray-color);
+  padding: 1rem;
+  font-size: 1rem;
+}
+.form input:hover {
+  outline: 0;
+}
+.form button {
+  border: 0;
+  background-color: var(--dark-color);
+  padding: 0.755rem 2rem;
+  font-size: 1rem;
+  font-weight: 100 !important;
+  color: var(--light-gray-color);
+  font-style: italic;
+}
+.order {
+  padding: 2.5rem;
+  background-color: var(--light-gray-color);
+}
+.order h2 {
+  font-weight: 500;
+  font-style: italic;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid var(--gray-color);
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.item span {
+  width: 180px;
+  flex-shrink: 0;
+  color: var(--gray-color);
+  text-align: end;
+}
+.item h4 {
+  font-weight: 500;
+  font-style: italic;
+}
+.order h2 {
+  margin-bottom: 2rem;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.total h3 {
+  font-weight: 500;
+  font-style: italic;
+}

@@ -1,0 +1,34 @@
+/*  */
+.nav {
+  flex-shrink: 0;
+  width: 300px;
+  font-style: italic;
+  color: var(--gray-color);
+  margin-bottom: 3rem;
+}
+.nav a {
+  text-decoration: none;
+  color: inherit;
+}
+.header {
+  background-color: var(--light-gray-color);
+}
+.header {
+  color: black;
+}
+.header,
+.navEl {
+  padding: 0.75rem 1.5rem;
+}
+.apple {
+  color: var(--light-gray-color);
+  background-color: var(--dark-color);
+}
+/*  */
+/* .productList {
+  flex-grow: 1;
+  padding: 1rem 2rem 3rem 2rem;
+} */
+.active {
+  color: #f59f00 !important;
+}

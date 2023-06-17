@@ -1,0 +1,84 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  box-shadow: 0 0 0 50vw inset rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 600px;
+  width: 60vw;
+  background-color: white;
+  z-index: 101;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+}
+.close {
+  text-align: end;
+}
+.close:hover {
+  cursor: pointer;
+}
+.descriptionContainer {
+  display: flex;
+  flex-grow: 1;
+}
+.image {
+  flex-basis: 45%;
+  overflow: hidden;
+}
+.image img {
+  width: 100%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.description {
+  flex-basis: 55%;
+  padding: 1rem 2rem;
+}
+.description h2 {
+  font-weight: 500;
+}
+.description h3 {
+  color: var(--gray-color);
+  font-weight: 400;
+  margin: 0.75rem 0;
+}
+.description p {
+  color: var(--gray-color);
+  line-height: 1.4rem;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 14;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.btn button {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  border: 0;
+  padding: 0.75rem 2rem;
+  background-color: var(--dark-color);
+  color: white;
+}
+.btn i {
+  margin-right: 0.75rem;
+}
+.btn button:hover {
+  background-color: var(--lightDark-color);
+  cursor: pointer;
+}
+.detail {
+  padding: 0 2rem;
+}

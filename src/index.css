@@ -1,0 +1,25 @@
+:root {
+  --gray-color: #868e96;
+  --light-gray-color: #f1f3f5;
+  --dark-color: #212529;
+  --lightDark-color: #343a40;
+  --view-height: ;
+}
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

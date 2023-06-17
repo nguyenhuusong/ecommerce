@@ -1,0 +1,47 @@
+.nav,
+.userContainer,
+.cart,
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  padding: 2rem 0.5rem 1.25rem 0.5rem;
+  width: 70vw;
+  margin: 0 auto;
+  font-style: italic;
+}
+.link a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 1rem;
+}
+.link .active {
+  color: #f59f00;
+}
+.title {
+  font-weight: 500;
+}
+.user,
+.logout {
+  margin-left: 1rem;
+}
+.logout:hover {
+  cursor: pointer;
+}
+.userContainer a {
+  text-decoration: none;
+  color: inherit;
+}
+.userContainer i {
+  margin: 0 0.25rem;
+  color: var(--gray-color);
+}
+.userContainer .active {
+  color: #f59f00;
+}
+.userContainer .active i {
+  color: #f59f00;
+}
